@@ -1122,7 +1122,7 @@ The following Activity diagram summarizes the update of a YANG module and its as
 
 # Keeping a SID File in a YANG Instance Data file
 
-{{?RFC9195}} defines a format for "YANG Instance Data".
+RFC9195 defines a format for "YANG Instance Data".
 This essentially leads to an encapsulation of the instance data within
 some metadata envelope.
 
