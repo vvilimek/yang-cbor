@@ -125,61 +125,6 @@
       },
       {
         "namespace": "data",
-        "identifier": "/ietf-system:system-restart",
-        "sid": "1718"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-shutdown",
-        "sid": "1719"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state",
-        "sid": "1720"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state/clock",
-        "sid": "1721"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state/clock/boot-datetime",
-        "sid": "1722"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state/clock/current-datetime",
-        "sid": "1723"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state/platform",
-        "sid": "1724"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state/platform/machine",
-        "sid": "1725"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state/platform/os-name",
-        "sid": "1726"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state/platform/os-release",
-        "sid": "1727"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system-state/platform/os-version",
-        "sid": "1728"
-      },
-      {
-        "namespace": "data",
         "identifier": "/ietf-system:system/authentication",
         "sid": "1729"
       },
@@ -437,6 +382,61 @@
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp/udp/shared-secret",
         "sid": "1774"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-restart",
+        "sid": "1718"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-shutdown",
+        "sid": "1719"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state",
+        "sid": "1720"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state/clock",
+        "sid": "1721"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state/clock/boot-datetime",
+        "sid": "1722"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state/clock/current-datetime",
+        "sid": "1723"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state/platform",
+        "sid": "1724"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state/platform/machine",
+        "sid": "1725"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state/platform/os-name",
+        "sid": "1726"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state/platform/os-release",
+        "sid": "1727"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-state/platform/os-version",
+        "sid": "1728"
       }
     ]
   }
