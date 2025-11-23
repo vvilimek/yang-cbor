@@ -121,7 +121,7 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:set-current-datetime/output",
-        "sid": "0"
+        "sid": "1777"
       },
       {
         "namespace": "data",
@@ -231,12 +231,12 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport",
-        "sid": "0"
+        "sid": "1778"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport/udp-and-tcp",
-        "sid": "0"
+        "sid": "1779"
       },
       {
         "namespace": "data",
@@ -301,12 +301,12 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport",
-        "sid": "0"
+        "sid": "1780"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport/udp",
-        "sid": "0"
+        "sid": "1781"
       },
       {
         "namespace": "data",
@@ -361,12 +361,12 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport",
-        "sid": "0"
+        "sid": "1782"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp",
-        "sid": "0"
+        "sid": "1783"
       },
       {
         "namespace": "data",
@@ -396,12 +396,12 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-restart/input",
-        "sid": "0"
+        "sid": "1784"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-restart/output",
-        "sid": "0"
+        "sid": "1785"
       },
       {
         "namespace": "data",
@@ -411,12 +411,12 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-shutdown/input",
-        "sid": "0"
+        "sid": "1786"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-shutdown/output",
-        "sid": "0"
+        "sid": "1787"
       },
       {
         "namespace": "data",
