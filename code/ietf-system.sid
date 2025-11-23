@@ -120,6 +120,11 @@
       },
       {
         "namespace": "data",
+        "identifier": "/ietf-system:set-current-datetime/output",
+        "sid": "0"
+      },
+      {
+        "namespace": "data",
         "identifier": "/ietf-system:system",
         "sid": "1717"
       },
@@ -390,8 +395,28 @@
       },
       {
         "namespace": "data",
+        "identifier": "/ietf-system:system-restart/input",
+        "sid": "0"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-restart/output",
+        "sid": "0"
+      },
+      {
+        "namespace": "data",
         "identifier": "/ietf-system:system-shutdown",
         "sid": "1719"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-shutdown/input",
+        "sid": "0"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-shutdown/output",
+        "sid": "0"
       },
       {
         "namespace": "data",
