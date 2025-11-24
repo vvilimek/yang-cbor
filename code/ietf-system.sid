@@ -3,6 +3,7 @@
     "module-name": "ietf-system",
     "module-revision": "2014-08-06",
     "sid-file-version": 2,
+    "sid-file-status": "unpublished",
     "description": "Example sid file",
     "dependency-revision": [
       {
@@ -122,7 +123,8 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:set-current-datetime/output",
-        "sid": "1777"
+        "sid": "1777",
+        "status": "unstable"
       },
       {
         "namespace": "data",
@@ -182,12 +184,14 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/clock/timezone",
-        "sid": "1778"
+        "sid": "1778",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/clock/timezone/timezone-name",
-        "sid": "1779"
+        "sid": "1779",
+        "status": "unstable"
       },
       {
         "namespace": "data",
@@ -197,7 +201,8 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/clock/timezone/timezone-utc-offset",
-        "sid": "1780"
+        "sid": "1780",
+        "status": "unstable"
       },
       {
         "namespace": "data",
@@ -247,12 +252,14 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport",
-        "sid": "1781"
+        "sid": "1781",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport/udp-and-tcp",
-        "sid": "1782"
+        "sid": "1782",
+        "status": "unstable"
       },
       {
         "namespace": "data",
@@ -317,12 +324,14 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport",
-        "sid": "1783"
+        "sid": "1783",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport/udp",
-        "sid": "1784"
+        "sid": "1784",
+        "status": "unstable"
       },
       {
         "namespace": "data",
@@ -377,12 +386,14 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport",
-        "sid": "1785"
+        "sid": "1785",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp",
-        "sid": "1786"
+        "sid": "1786",
+        "status": "unstable"
       },
       {
         "namespace": "data",
@@ -412,12 +423,14 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-restart/input",
-        "sid": "1787"
+        "sid": "1787",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-restart/output",
-        "sid": "1788"
+        "sid": "1788",
+        "status": "unstable"
       },
       {
         "namespace": "data",
@@ -427,12 +440,14 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-shutdown/input",
-        "sid": "1789"
+        "sid": "1789",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-shutdown/output",
-        "sid": "1790"
+        "sid": "1790",
+        "status": "unstable"
       },
       {
         "namespace": "data",
