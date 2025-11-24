@@ -180,12 +180,27 @@
       },
       {
         "namespace": "data",
-        "identifier": "/ietf-system:system/clock/timezone-name",
+        "identifier": "/ietf-system:system/clock/timezone",
+        "sid": "0"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/clock/timezone/timezone-name",
+        "sid": "0"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/clock/timezone/timezone-name/timezone-name",
         "sid": "1739"
       },
       {
         "namespace": "data",
-        "identifier": "/ietf-system:system/clock/timezone-utc-offset",
+        "identifier": "/ietf-system:system/clock/timezone/timezone-utc-offset",
+        "sid": "0"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/clock/timezone/timezone-utc-offset/timezone-utc-offset",
         "sid": "1740"
       },
       {
