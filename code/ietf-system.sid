@@ -3,7 +3,7 @@
     "module-name": "ietf-system",
     "module-revision": "2014-08-06",
     "sid-file-version": 2,
-    "sid-file-status": "unpublised",
+    "sid-file-status": "unpublished",
     "description": "Example sid file",
     "dependency-revision": [
       {
@@ -26,7 +26,7 @@
     "assignment-range": [
       {
         "entry-point": "1700",
-        "size": "100"
+        "size": "150"
       }
     ],
     "item": [
@@ -191,6 +191,12 @@
       },
       {
         "namespace": "data",
+        "identifier": "/ietf-system:system/clock/timezone-name",
+        "sid": "1739",
+        "status": "obsolete"
+      },
+      {
+        "namespace": "data",
         "identifier": "/ietf-system:system/clock/timezone/timezone-name",
         "sid": "1779",
         "status": "unstable"
@@ -198,18 +204,26 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/clock/timezone/timezone-name/timezone-name",
-        "sid": "1739"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:system/clock/timezone/timezone-utc-offset",
         "sid": "1780",
         "status": "unstable"
       },
       {
         "namespace": "data",
+        "identifier": "/ietf-system:system/clock/timezone/timezone-utc-offset",
+        "sid": "1781",
+        "status": "unstable"
+      },
+      {
+        "namespace": "data",
         "identifier": "/ietf-system:system/clock/timezone/timezone-utc-offset/timezone-utc-offset",
-        "sid": "1740"
+        "sid": "1782",
+        "status": "unstable"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/clock/timezone-utc-offset",
+        "sid": "1740",
+        "status": "obsolete"
       },
       {
         "namespace": "data",
@@ -254,29 +268,50 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport",
-        "sid": "1781",
+        "sid": "1783",
         "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport/udp-and-tcp",
-        "sid": "1782",
+        "sid": "1784",
         "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport/udp-and-tcp/udp-and-tcp",
-        "sid": "1749"
+        "sid": "1785",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport/udp-and-tcp/udp-and-tcp/address",
-        "sid": "1750"
+        "sid": "1786",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/dns-resolver/server/transport/udp-and-tcp/udp-and-tcp/port",
-        "sid": "1751"
+        "sid": "1787",
+        "status": "unstable"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/dns-resolver/server/udp-and-tcp",
+        "sid": "1749",
+        "status": "obsolete"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/dns-resolver/server/udp-and-tcp/address",
+        "sid": "1750",
+        "status": "obsolete"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/dns-resolver/server/udp-and-tcp/port",
+        "sid": "1751",
+        "status": "obsolete"
       },
       {
         "namespace": "data",
@@ -326,29 +361,50 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport",
-        "sid": "1783",
+        "sid": "1788",
         "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport/udp",
-        "sid": "1784",
+        "sid": "1779",
         "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport/udp/udp",
-        "sid": "1761"
+        "sid": "1790",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport/udp/udp/address",
-        "sid": "1762"
+        "sid": "1791",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport/udp/udp/port",
-        "sid": "1763"
+        "sid": "1792",
+        "status": "unstable"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/ntp/server/udp",
+        "sid": "1761",
+        "status": "obsolete"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/ntp/server/udp/address",
+        "sid": "1762",
+        "status": "obsolete"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/ntp/server/udp/port",
+        "sid": "1763",
+        "status": "obsolete"
       },
       {
         "namespace": "data",
@@ -388,34 +444,62 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport",
-        "sid": "1785",
+        "sid": "1793",
         "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp",
-        "sid": "1786",
+        "sid": "1794",
         "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp/udp",
-        "sid": "1771"
+        "sid": "1795",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp/udp/address",
-        "sid": "1772"
+        "sid": "1796",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp/udp/authentication-port",
-        "sid": "1773"
+        "sid": "1797",
+        "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp/udp/shared-secret",
-        "sid": "1774"
+        "sid": "1797",
+        "status": "unstable"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/radius/server/udp",
+        "sid": "1771",
+        "status": "obsolete"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/radius/server/udp/address",
+        "sid": "1772",
+        "status": "obsolete"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/radius/server/udp/authentication-port",
+        "sid": "1773",
+        "status": "obsolete"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system/radius/server/udp/shared-secret",
+        "sid": "1774",
+        "status": "obsolete"
       },
       {
         "namespace": "data",
@@ -425,14 +509,14 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-restart/input",
-        "sid": "1787",
+        "sid": "1799",
         "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-restart/output",
-        "sid": "1788",
-        "status", "unstable"
+        "sid": "1800",
+        "status": "unstable"
       },
       {
         "namespace": "data",
@@ -442,13 +526,14 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-shutdown/input",
-        "sid": "1789",
+        "sid": "1801",
         "status": "unstable"
       },
       {
         "namespace": "data",
         "identifier": "/ietf-system:system-shutdown/output",
-        "sid": "1790"
+        "sid": "1802",
+        "status": "unstable"
       },
       {
         "namespace": "data",
