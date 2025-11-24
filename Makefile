@@ -1,4 +1,4 @@
-TEXT_PAGINATION := true
+TEXT_PAGINATION := false
 LIBDIR := lib
 include $(LIBDIR)/main.mk
 
