@@ -38,8 +38,8 @@ author:
 - role: editor
   ins: A. Pelov
   name: Alexander Pelov
-  org: IMT Atlantique 
-  street: 2 rue de la Châtaigneraie 
+  org: IMT Atlantique
+  street: 2 rue de la Châtaigneraie
   code: '35510'
   city: Cesson-Sevigne
   region: Bretagne
@@ -940,6 +940,8 @@ requested range, and remove this note.\\
 
 # ".sid" file example  {#sid-file-example}
 
+This section is non-normative.
+
 The following ".sid" file (ietf-system@2014-08-06.sid) has been generated using the following yang modules:
 
 * ietf-system@2014-08-06.yang (defined in {{RFC7317}})
@@ -954,6 +956,11 @@ The following ".sid" file (ietf-system@2014-08-06.sid) has been generated using 
 
 For purposes of exposition, line breaks have been introduced below in
 some JSON strings that represent overly long identifiers.
+
+History of this example '.sid' file. The first version (`"sid-file-version": "0"`) was created during drafting of the {{RFC7317}}. At that time, the module did not include
+`"/ietf-system:set-current-datetime/input/current-datetime"`. The second version (`"sid-file-version": "1"`) added the mentioned `set-current-datetime` RPC node with the `current-datetime` input leaf.
+Both of the these versions did not assign SID to all items in the module. The third version (`"sid-file-version": "2"`) is inlined below and fixes the assignment issues.
+This iterative evolution show-case the stability expected of YANG SID assignments.
 
 <!-- /^ *[^" ]+"/ -->
 
