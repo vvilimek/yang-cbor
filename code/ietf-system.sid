@@ -367,7 +367,7 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/ntp/server/transport/udp",
-        "sid": "1779",
+        "sid": "1789",
         "status": "unstable"
       },
       {
@@ -474,7 +474,7 @@
       {
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/transport/udp/udp/shared-secret",
-        "sid": "1797",
+        "sid": "1798",
         "status": "unstable"
       },
       {
