@@ -2,11 +2,13 @@
   "ietf-sid-file:sid-file": {
     "module-name": "ietf-system",
     "module-revision": "2014-08-06",
+    "sid-file-version": 1,
+    "sid-file-status": "unpublished",
     "description": "Example sid file",
     "dependency-revision": [
       {
-        "module-name": "ietf-yang-types",
-        "module-revision": "2013-07-15"
+        "module-name": "iana-crypt-hash",
+        "module-revision": "2014-08-06"
       },
       {
         "module-name": "ietf-inet-types",
@@ -17,8 +19,8 @@
         "module-revision": "2018-02-14"
       },
       {
-        "module-name": "iana-crypt-hash",
-        "module-revision": "2014-08-06"
+        "module-name": "ietf-yang-types",
+        "module-revision": "2013-07-15"
       }
     ],
     "assignment-range": [
@@ -110,13 +112,9 @@
       },
       {
         "namespace": "data",
-        "identifier": "/ietf-system:set-current-datetime/input",
-        "sid": "1775"
-      },
-      {
-        "namespace": "data",
-        "identifier": "/ietf-system:set-current-datetime/input/current-datetime",
-        "sid": "1776"
+        "identifier": "/ietf-system:set-current-datetime/output",
+        "status": "unstable",
+        "sid": "1716"
       },
       {
         "namespace": "data",
@@ -407,6 +405,40 @@
         "namespace": "data",
         "identifier": "/ietf-system:system/radius/server/udp/shared-secret",
         "sid": "1774"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:set-current-datetime/input",
+        "sid": "1775"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:set-current-datetime/input/current-datetime",
+        "sid": "1776"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-restart/input",
+        "status": "unstable",
+        "sid": "1777"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-restart/output",
+        "status": "unstable",
+        "sid": "1778"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-shutdown/input",
+        "status": "unstable",
+        "sid": "1779"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-system:system-shutdown/output",
+        "status": "unstable",
+        "sid": "1780"
       }
     ]
   }
