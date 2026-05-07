@@ -325,6 +325,7 @@ module ietf-constrained-yang-library {
     leaf-list deviation {
       type leafref {
         path "../../module/identifier";
+        require-instance true;
       }
       description
         "List of all YANG deviation modules used by this server to
@@ -471,6 +472,7 @@ module ietf-constrained-yang-library {
       leaf-list module-set {
         type leafref {
           path "../../module-set/index";
+          require-instance true;
         }
         description
           "A set of module-sets that are included in this schema.
@@ -501,6 +503,7 @@ module ietf-constrained-yang-library {
       leaf schema {
         type leafref {
           path "../../schema/index";
+          require-instance true;
         }
         mandatory true;
         description
