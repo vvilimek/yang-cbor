@@ -503,6 +503,9 @@ The following YANG module defines the structure of this file, encoding is
 performed in JSON {{-json}} using the rules defined in {{RFC7951}}.
 It references ietf-yang-types defined in {{RFC6991}} and ietf-yang-structure-ext defined in {{RFC8791}}.
 
+The filename convensions for ".sid" file are "<module-name>.<sid-file-version>.sid"
+for revisionless YANG modules and "<module-name>@<module-revision>.<sid-file-version>.sid".
+
 RFC Ed.: please update the date of the module and Copyright if needed and remove this note.
 
 ~~~~ yang
@@ -1147,6 +1150,8 @@ second-level members as indicated with the angle brackets:
   }
 }
 ~~~
+
+(Note that the Instance Data file uses the filename convensions in "name" field.)
 
 [^rfced]
 
