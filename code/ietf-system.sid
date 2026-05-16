@@ -410,7 +410,7 @@
         "sid": "1774"
       },
       {
-	"namespace": "data",
+        "namespace": "data",
         "identifier": "/ietf-system:set-current-datetime/output",
         "status": "unstable",
         "sid": "1716"
