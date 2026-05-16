@@ -90,16 +90,17 @@ module ietf-sid-file {
       "[RFC XXXX] YANG Schema Item iDentifier (YANG SID)";
   }
 
-  typedef schema-node-path {
+  typedef node-item-identifier {
     type string {
       pattern
         '/[a-zA-Z_][a-zA-Z0-9\-_.]*:[a-zA-Z_][a-zA-Z0-9\-_.]*' +
         '(/[a-zA-Z_][a-zA-Z0-9\-_.]*(:[a-zA-Z_][a-zA-Z0-9\-_.]*)?)*';
     }
     description
-      "A schema-node path is an absolute YANG schema node identifier
+      "A node-item-identifier path is an absolute YANG schema node identifier
       as defined by the YANG ABNF rule absolute-schema-nodeid,
-      except that module names are used instead of prefixes.
+      except that module names are used instead of prefixes and
+      choice and case schema nodes are omitted.
 
       This string additionally follows the following rules:
 
@@ -324,7 +325,7 @@ module ietf-sid-file {
       leaf identifier {
         type union {
           type yang:yang-identifier;
-          type schema-node-path;
+          type node-item-identifier;
         }
         description
           "String identifier of the YANG item for this mapping

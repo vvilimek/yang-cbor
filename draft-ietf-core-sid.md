@@ -210,6 +210,10 @@ This specification also makes use of the following terminology:
 * YANG Name: Text string used to identify different YANG items
   (cf. {{Section 3.3 of RFC9254}}).
 
+* YANG Node Item iDentifier (YANG NID or simply NID): Text string
+  used to identify different YANG items. Some NIDs are identified by YANG Name,
+  namely module, submodule, identity and feature items.
+
 # Objectives
 
 The overriding objective of the SID assignment and registration system is to
@@ -490,7 +494,8 @@ For an example of this update process, see activity diagram
 # ".sid" file format  {#sid-file-format}
 
 ".sid" files are used to persist and publish SIDs assigned to the different
-YANG items of a specific YANG module.
+YANG items of a specific YANG module. In a very simplistic view,
+the ".sid" file defines a mapping from SIDs to NIDs.
 
 It has the following structure:
 
